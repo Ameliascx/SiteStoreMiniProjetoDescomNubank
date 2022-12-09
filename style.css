@@ -1,0 +1,46 @@
+body{
+    background-color:#FFE8BD;
+    font-weight: 400;
+    font-family: cursive;
+    font-size: 15px;
+    line-height: 2.2em;
+    color:#4f4f50; 
+    margin:0;
+    
+}
+
+header{
+    background-color:#efbef3;
+    font-family: cursive;
+     
+}
+
+
+
+footer{
+    background-color:#efbef3;
+    margin:0;
+    padding:10px;
+    font-family:cursive;
+    color:#4f4f50;
+}
+
+h2{
+    background-color: #efbef3;
+    padding: 10px;
+    border-radius: 15px;
+    color:#4f4f50;
+
+}
+ 
+#quemsomos .figuras figure{
+    display:inline-block;
+    opacity: 30%;
+}
+
+h1{
+    color:#efbef3;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+}
+
