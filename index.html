@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head> <!--O que tem no buscador-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Zenspace</title>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body> <!--O que vai conter no site-->
+
+<header> 
+    <nav class="navbar bg-gradient navbar-expand-lg">    <!--Barra de Navegação-->
+        
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">ZenSpace</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Todas as Categorias
+                        </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Incensos</a></li>
+                                <li><a class="dropdown-item" href="#">Velas Aromáticas</a></li>
+                                <li><a class="dropdown-item" href="#">Óleos Essenciais</a></li>
+                                <li><a class="dropdown-item" href="#">Difusores e Umidificadores</a></li>
+                            </ul>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Novidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Kits</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Promoções</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Do it Yourself</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Blog</a>
+                    </li>
+                </ul>
+                
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="O que procura?" aria-label="Search">
+                    <button class="btn btn-light" type="submit">OK</button>
+                </form>
+            </div>
+        </div>
+    </nav><!--Aqui termina a barra de navegração-->    
+
+        <!--Aqui começa o carrosel-->
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel"> 
+            
+            <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            
+            <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img src="img\carroselheader\oleos-essenciais-capa.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                <h1>Melhore sua qualidade de vida</h1>
+                </div>
+            </div>
+            
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="img\carroselheader\TENDENCIAS-E-DESAFIOS-DA-APLICACAO-DOS-OLEOS-ESSENCIAIS-EM-PRODUTOS-DE-ORIGEM-ANIMAL-Por-Agron-food-Academy.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                <h1>Cuide da sua mente</h1>
+                </div>
+            </div>
+            
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="img\carroselheader\incenso-anner-1170x400w.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                <h1>Venha ser nosso consumidor</h1>
+                </div>
+            </div>
+            </div>
+            
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div> <!--Aqui termina o carrosel-->
+
+</header>
+<br><br><br>
+<section class="container-fluid text-center p-2"> <!--Seção de Quem Somos-->
+    <h2>Quem é a ZenSpace</h2>
+    <br><br>
+    <section id="quemsomos">
+        <div class="figuras">
+            <figure>
+                <img src="img\quemsomos\images (15).jpeg">
+            </figure>
+            <figure>
+                <img src="img\quemsomos\images (26).jpeg">
+            </figure> 
+            <figure>
+                <img src="img\quemsomos\images (24).jpeg">
+            </figure>
+        </div>
+    <br>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    </section>
+<!--Aqui termina a seção de quem somos--> 
+</section> 
+<br><br>
+<section class="container-fluid text-center p-2"><!--Seção de Nosso time-->
+    <h2>Nosso Time de FrontEnd e Desingn UX/UI</h2>
+    <br><br><br>
+        <div class="card mb-3" style="max-width: 540px; margin-right:350px; margin-left:350px;background-color:#efbef3;"> <!--Aqui é o card lateral-->
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="img\nossotime\MeuAvatarSamsung1.jpeg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Developer's Avatar</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+<br><br><br>
+<!--Aqui termina a seção de nosso time-->
+
+<section class="container-fluid text-center p-2"> <!-- Seção de Nossos Produtos-->
+    <h2>Conheça a Linha de Produtos da ZenSpace</h2>
+    
+    <div class="card-group">
+        <div class="card">
+          <img src="img\produtos\images (21).jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h6 class="card-title">Óleo Essencial de Laranja</h6>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+            
+            <a href="#" class="btn btn-danger">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                    <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                </svg>
+            </a>
+            <a href="#" class="btn btn-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-plus" viewBox="0 0 16 16">
+                    <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z"/>
+                    <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                </svg>
+            </a>
+          </div>
+        </div>
+            <br>
+        <div class="card">
+          <img src="img\produtos\images (27).jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h6 class="card-title">Difusor de Aromas com Essenciais</h6>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-danger">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                    <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                </svg>
+            </a>
+            <a href="#" class="btn btn-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-plus" viewBox="0 0 16 16">
+                    <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z"/>
+                    <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                </svg>
+            </a>
+          </div>
+        </div>
+            <br>
+        <div class="card">
+            <img src="img\produtos\images (22).jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6 class="card-title">Kit de Velas Aromáticas</h6>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-danger">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                    <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                </svg>
+              </a>
+              <a href="#" class="btn btn-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-plus" viewBox="0 0 16 16">
+                    <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z"/>
+                    <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                </svg>
+              </a>
+            </div>
+        </div>
+            <br>
+        <div class="card">
+          <img src="img\produtos\incensos-varetas-kit.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h6 class="card-title">Insenso de Canela e Cravo</h6>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-danger">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                    <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                </svg>
+            </a>
+            <a href="#" class="btn btn-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-plus" viewBox="0 0 16 16">
+                    <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z"/>
+                    <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="card">
+            <img src="img\produtos\images (23).jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6 class="card-title">Óleo Essencial de Menta</h6>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-danger">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                      <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                  </svg>
+              </a>
+              <a href="#" class="btn btn-success">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-plus" viewBox="0 0 16 16">
+                      <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z"/>
+                      <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                  </svg>
+              </a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="img\produtos\imageskhuy.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6 class="card-title">Insenso de Arruda e Sal Grosso</h6>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-danger">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                      <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                  </svg>
+              </a>
+              <a href="#" class="btn btn-success">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-plus" viewBox="0 0 16 16">
+                      <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z"/>
+                      <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                  </svg>
+              </a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="img\produtos\images (9).jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6 class="card-title">Difusor 500ML</h6>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-danger">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                      <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                  </svg>
+              </a>
+              <a href="#" class="btn btn-success">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-plus" viewBox="0 0 16 16">
+                      <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z"/>
+                      <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                  </svg>
+              </a>
+            </div>
+        </div>
+
+
+
+      </div>
+
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+
+
+<br><br><br>
+
+
+<footer>
+    Desenvolvido com empenho e perseverança
+    <br>
+    Amelia Web Soluções
+    <br><br>
+    <p>Mini-Projeto HTML/CSS/BooStrap InstitutoNu by Descomplica</p>
+</footer>
+</html>
